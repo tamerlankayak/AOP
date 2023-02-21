@@ -1,7 +1,7 @@
 package com.example.aopexamples.aopexample.aspects;
 
 import org.aspectj.lang.annotation.Pointcut;
-
+//for common packages declerations
 public class CommonPointcutConfig {
 
     @Pointcut("execution(* com.example.aopexamples.aopexample.*.*.*(..))")
